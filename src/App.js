@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+//import Chai from "./chai";
+//import React,{useState} from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+//import Name from "./hello";
+//import logo from "./logo.svg";
+//import Student from "./Student";
+//import Parent from "./Parent";
+//import "./App.css";
+//import React from 'react';
+
+class App extends React.Component {
+
+  constructor() {
+    super();
+    this.state = {
+      name:"saiba"
+    }
+
 }
+
+  render()
+  
+  {
+    return (
+      <div className="App">
+        <h1>props in react</h1>
+        <Student name={this.state.name} email="shreya singht @" />
+        <button onClick={()=>this.setState({name:"shreya"})}>Update name</button>
+        <Parent />
+      </div>
+    );
+  }
+}
+   
+    
+  
+
+
 
 export default App;

@@ -1,14 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+//import "bootstrap/dist/css/bootstrap.min.css";
+//import App1 from './App1';
+//import Hide from "./Hide";
+//import User from './User';
+import Site from './Site'
+//import "bootstrap/dist/css/bootstrap.min.css";
+// import Reuse from './Reuse';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import reportWebVitals from "./reportWebVitals";
+//import Basicform from './Basicform';
+
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  //<React.StrictMode>
+ <Site/>  
+  // <Reuse/>
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
