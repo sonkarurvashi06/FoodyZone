@@ -1,0 +1,29 @@
+.btn-wrapper button {
+color: blueviolet;
+background-color: yellow;
+
+
+}
+.img-wrapper img{
+width:100px;
+
+
+}
+.item{
+    float: left;
+    float: inline-start;
+    width: 100px;
+    display: flow;
+    padding: 20px;
+    border: 10px;
+    margin-left: 10px;
+    
+}
+h1{
+    color: blue;
+}
+.cart-img{
+width: 110px;
+    position: absolute;
+    right: 1px;
+}
